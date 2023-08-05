@@ -3,6 +3,7 @@ function createMultipleDiv(){
      const div = document.createElement("div");
      const container = document.querySelector(".container")
      container.appendChild(div);
+     div.setAttribute("class","multiple")
     }
     
 }
