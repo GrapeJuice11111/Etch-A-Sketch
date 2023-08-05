@@ -1,9 +1,25 @@
 *{
     box-sizing: border-box;
-    background-color: black;
+    background-color: transparent;
 }
 
 
 .container{
+    border: 2px solid black;
+    width: 295px;
+    height: 350px;
     background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.multiple{
+    border: 0.1px solid white;
+    padding: 8px;
+    background-color: blue;
+    align-self: center;
+    width: 9px;
+    height: 10px;
+}
+
