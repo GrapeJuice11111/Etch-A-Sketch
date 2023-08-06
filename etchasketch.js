@@ -26,10 +26,11 @@ function createMultipleDiv(){
          const divs = document.createElement("div");
          const container = document.querySelector(".container")
          container.appendChild(divs);
-         divs.setAttribute("class","multiple")
+         divs.setAttribute("class","generated")
         }};
         createMultipleDiv1();
-        const divs = document.querySelectorAll(".multiple")
+        const divs = document.querySelectorAll("generated")
     divs.forEach(div => div.addEventListener("mouseover", function(e){
         div.classList.add("hovering");
-    }));})
+    }));
+});
