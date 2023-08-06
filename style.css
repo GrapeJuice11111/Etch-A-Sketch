@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    background-color: white;
 }
 
 body{
@@ -26,9 +25,7 @@ body{
 .multiple{
     border: 0.1px solid white;
     background-color: skyblue;
-    margin: auto;
     padding: 11px;
-
 }
 
 
@@ -53,4 +50,8 @@ body{
     font-size: 23px;
     color:brown;
     align-self: center;
+}
+
+.generated{
+    
 }
