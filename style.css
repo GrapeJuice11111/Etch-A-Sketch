@@ -13,9 +13,9 @@ body{
 
 .container{
     border: 2px solid red;
-    max-width: 300px;
+    max-width: 400px;
     margin: auto;
-    height: 400px;
+    height: 600px;
     background-color:white;
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +26,8 @@ body{
 .multiple{
     border: 0.1px solid white;
     background-color: skyblue;
-    padding: 8px;
+    margin: auto;
+    padding: 11px;
 
 }
 
