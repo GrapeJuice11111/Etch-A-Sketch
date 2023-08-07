@@ -11,8 +11,9 @@ body{
 
 
 .container{
-    border: 2px solid red;
-    max-width: 400px;
+    box-sizing: content-box;
+    border: 0.1px solid red;
+    width:600px;
     margin: auto;
     height: 600px;
     background-color:white;
@@ -25,7 +26,8 @@ body{
 .multiple{
     border: 0.1px solid white;
     background-color: skyblue;
-    padding: 11px;
+    min-width: 37.5px;
+    min-height: 37.5px;
 }
 
 
@@ -53,5 +55,10 @@ body{
 }
 
 .generated{
-    
+    background-color: skyblue;
+    border: 0.01px solid white;
+}
+
+.hovering99{
+    background-color: black;
 }

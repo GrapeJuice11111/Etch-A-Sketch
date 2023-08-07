@@ -29,8 +29,14 @@ function createMultipleDiv(){
          divs.setAttribute("class","generated")
         }};
         createMultipleDiv1();
-        const divs = document.querySelectorAll("generated")
-    divs.forEach(div => div.addEventListener("mouseover", function(e){
-        div.classList.add("hovering");
-    }));
-});
+        const widthandheight = (600/num);
+        const divs = document.querySelectorAll(".generated")
+     for (let i = 0; i < divs.length; i++) {
+      divs[i].setAttribute(`style`,`min-width: ${widthandheight}px; min-height: ${widthandheight}px;`) 
+    } 
+        divs.forEach(div => div.addEventListener("mouseover", function(e){
+            div.classList.add("hovering99");
+        }));
+    });
+
+    
